@@ -326,8 +326,6 @@ try {
 }
 
 
-
-
 private void view_barang (String sql){
 Object[] header = {"Kode Barang"," Supplier", "Nama Barang", "Tanggal Masuk","Jumlah"};
 DefaultTableModel tabel = new DefaultTableModel(null, header);
